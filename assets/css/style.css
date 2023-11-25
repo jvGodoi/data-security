@@ -56,6 +56,25 @@ h2.titulos__distancia{
     opacity: 0;
     cursor: pointer;
 }
+.banner{
+    text-align: center;
+    margin-top: 20px;
+}
+.banner a{
+    color: var(--titulos);
+    font-family: var(--fonte-paragrafos);
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: 2px underline wavy var(--titulos);
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+.banner a:hover{
+    color: var(--destaques);
+}
 
 .navegacao{
     border: 1px solid red;
@@ -106,7 +125,16 @@ h2.titulos__distancia{
     display: flex;
     gap: 2em;
 }
-
+.banner__texto{
+    font-family: var(--fonte-paragrafos);
+    color: var(--textos);
+    text-align: center;
+}
+.banner__texto a{
+    text-decoration: none;
+    color: var(--textos);
+    font-weight: 600;
+}
 .cabecalho__navegacao__links__link {
     text-decoration: none;
     color: var(--textos);
@@ -167,7 +195,6 @@ h1.cabecalho__textos__titulo{
     justify-content: center;
     margin: 3% 0;
     gap: 1.5em;
-    cursor: pointer; 
     padding: 5% 0;
 }
 
@@ -642,6 +669,7 @@ h1.cabecalho__textos__titulo{
     .fa-brands{
         margin-top: 4%;
         font-size: 2.3em;
+        cursor: pointer;
     }
     .historia__textos__titulo{
         font-size: 1.5em;

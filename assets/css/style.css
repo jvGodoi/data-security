@@ -736,6 +736,9 @@ h1.cabecalho__textos__titulo{
     .duvidas__textos__titulo{
         font-size: 1.5em;
     }
+    .rodape{
+        margin-top: 25%;
+    }
     .rodape__secoes{
         display: flex;
         flex-direction: column;
